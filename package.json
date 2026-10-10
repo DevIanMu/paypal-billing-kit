@@ -1,0 +1,16 @@
+{
+  "name": "paypal-billing-kit",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Reusable PayPal subscriptions + one-time packs billing for small SaaS. Extracted from a production Cloudflare Workers site.",
+  "type": "module",
+  "scripts": {
+    "test": "vitest run",
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@cloudflare/workers-types": "^4.20250901.0",
+    "typescript": "^5.6.0",
+    "vitest": "^2.1.0"
+  }
+}

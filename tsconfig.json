@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",
+    "module": "ESNext",
+    "moduleResolution": "bundler",
+    "lib": ["ES2022"],
+    "types": ["@cloudflare/workers-types"],
+    "strict": true,
+    "noEmit": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "allowImportingTsExtensions": false
+  },
+  "include": ["src/**/*", "adapters/cloudflare-astro-d1/*.ts", "adapters/cloudflare-astro-d1/handlers/**/*", "billing.config.example.ts", "site-branding.example.ts", "site-flags.example.ts"]
+}
